@@ -1,0 +1,157 @@
+.rentDetails {
+  padding: 1rem;
+  /* width: 70%; */
+  background-color: #e6edee;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+
+  /* justify-content: space-between; */
+}
+.detailText {
+  font-family: Robotp;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.ant-radio-group {
+  margin: 10px 10px 10px 20px;
+}
+.kmCharge {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.ant-input {
+  width: 200px;
+  border-radius: 4px;
+}
+.fixedHourText {
+  font-family: Robotp;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.otherCharges {
+  font-family: Robotp;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.delete {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.save {
+  margin-left: 20px;
+}
+.carRent {
+  /* box-shadow: 0.8px 0.8px 1px 2px #F6F6F6; */
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+}
+.microCar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.carType {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: -30px;
+}
+
+.acType {
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  color: red;
+}
+.rentText {
+  font-size: 15px;
+  font-weight: 500;
+  color: #d1d1d1;
+}
+.driverText {
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+.driverText span {
+  color: red;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.rentObject {
+  font-size: 14px;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #000;
+  text-align: center;
+  margin-bottom: 0;
+}
+.carDetail {
+  font-size: 15px;
+  /* font-family: Roboto; */
+  font-weight: 500;
+}
+.addButton {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+.addCarButton {
+  background-color: rgba(239, 70, 103, 1) !important;
+
+  color: rgba(255, 255, 255, 1) !important;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 400;
+  text-align: center;
+}
+.addCarButton:hover {
+  background-color: rgba(239, 70, 103, 1) !important;
+}
+.driverProfile {
+  display: flex;
+  flex-direction: column;
+
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+.actionButton {
+  background-color: #ef4667 !important;
+  color: #fff !important;
+  font-weight: 400 !important;
+}
+.actionButton:hover {
+  background-color: #ef4667 !important;
+}
+
+.ant-popover-buttons button
+{
+    background-color: #e6edee !important;
+    color:#1890ff !important;
+    font-weight: 400;
+}

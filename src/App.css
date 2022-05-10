@@ -1,0 +1,119 @@
+.title {
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 0.8px solid darkgray;
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+
+}
+.titleText {
+  
+  color: red;
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+  
+}
+.titleText span {
+  color: red;
+  
+}
+.container {
+  /* background-color: darkgrey; */
+  background-color: #fff;
+    height: 100vh;
+}
+.adminBody {
+  padding: 1rem 4rem;
+}
+.ant-btn {
+  border: 0 !important;
+  box-shadow: none !important;
+  /* margin: 10px; */
+  font-weight: 700 !important;
+  color: black  !important;
+  font-size: 16px !important;
+  background-color:#F6F6F6 !important;
+  
+  border-radius: 4px !important;
+  /* margin: 1rem 0;
+  width: 100%; */
+
+  
+ 
+}
+.ant-btn:hover{
+  background-color: #EEEEEE  !important;
+}
+.link-active{
+  color: red !important;
+}
+.adminContainer {
+  /* background-color: #E6EDEE; */
+  display: flex;
+  border-radius: 10px;
+  margin-top: 90px;
+}
+.navigation{
+  /* width: 30%; */
+  /* border-right: 0.8px solid darkgrey; */
+  /* text-align: center; */
+  /* background-color: #F6F6F6; */
+  
+  background-color:#F6F6F6;
+  /* background-color: rgba(239, 70, 103, 1); */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-radius: 8px 0 0 8px; 
+}
+.adminDashboard{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  padding: 10px;
+  margin-bottom: 0;
+  /* color: #fff */
+  /* border-bottom: 0.8px solid darkgray; */
+}
+.navButton{
+  margin: 1rem auto;
+  width: 80%;
+  
+}
+.adminContent{
+  width: 100%;
+  height: 80vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  
+  
+}
+.adminContent::-webkit-scrollbar {
+  width: 7px;
+ 
+}
+
+.adminContent::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+}
+
+.adminContent::-webkit-scrollbar-thumb {
+background-color: darkgrey;
+border-radius: 5px;
+/* outline: 1px solid slategrey; */
+}
